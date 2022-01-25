@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Product | Learn with IYAGIKOREAN</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="header">
+    <div class="navbar">
+      <div class="home">
+        <a href="home.html">
+          <img src="media/logo1.png" alt="IYAGIKOREAN" width="150px">
+        </a>
+      </div>
+      <nav class="navhead">
+        <ul class="nav_ul" style="font-family: 'Poppins', sans-serif; font-weight: 700;">
+          <li class="nav_li"><a href="Product.html">Products List</a></li>
+          <li class="nav_li"><a href="AboutProduct.html">About Product</a></li>
+          <li class="nav_li"><a href="AboutUs.html">About us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <hr style="max-width: 100%; margin: 0px; color: black;">
+  <div class="container2">
+    <form id="form" name="form" action="/" method="GET" style="background: white;" onsubmit="return validateforms()">
+      <div style="background: white;">
+        <h3 style="font-family: 'Poppins',sans-serif;font-size: 25px;background: white;">Choose Product</h3>
+        <label for="products" style="font-family: 'Poppins', sans-serif;font-size: 25px;background:white;"></label>
+        <input type="text" name="products" id="products" required style="border-width: 1px;">
+      </div>
+      <br>
+      <div style="background: white;">
+        <h3 style="font-family: 'Poppins',sans-serif;font-size: 25px;background: white;">Price</h3>
+        <label for="price" style="font-family: 'Poppins', sans-serif;font-size: 25px;background:white;"></label>
+        <input type="text" name="price" id="price" required style="border-width: 1px;">
+      </div>
+      <div style="background: white;">
+        <h3 style="font-family: 'Poppins',sans-serif;font-size: 25px;background: white;">Varian</h3>
+        <h3 style="font-family: 'Poppins',sans-serif;font-size: 20px;background: white;">Type (EBook / PDF)</h3>
+        <label for="type_" style="font-family: 'Poppins', sans-serif;font-size: 25px;background:white;"></label>
+        <input type="text" name="type_" id="type_" required style="border-width: 1px;">
+        <h3 style="font-family: 'Poppins',sans-serif;font-size: 20px;background: white;">Cover Color (Original / Green / Red / Blue)</h3>
+        <label for="color" style="font-family: 'Poppins', sans-serif;font-size: 25px;background:white;"></label>
+        <input type="text" name="color" id="color" required style="border-width: 1px;">
+      </div>
+      <button type="submit" style="padding: 12px; margin: 12px; border-radius: 30px;font-family: 'Poppins',sans-serif;font-weight: 500;font-size: 15px;border-width: 1px;">Submit</button>
+    </form>
+  </div>
+  <br><br><br><br><br>
+  <footer style="text-align: center;font-family: 'Poppins',sans-serif;font-weight: 500;">&copy; 2020 IYAGIKOREAN.com | All rights served.</footer>
+</body>
+</html>

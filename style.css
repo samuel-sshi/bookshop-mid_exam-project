@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+}
+.header {
+  max-width: 1200px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin: auto;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.navhead {
+  flex: 1;
+  text-align: right;
+}
+.nav_ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+}
+.nav_li {
+  display: inline-block;
+  margin-right: 50px;
+  
+}
+.nav_li a {
+  padding: 5px;
+  border-color: black;
+  border-style: solid;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.content {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.main {
+  flex-basis: 50%;
+  min-width: 300px;
+}
+.main h1 {
+  line-height: 55px;
+  font-size: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+}
+.main img {
+  max-width: 100%;
+  padding-left: 90px;
+  padding-top: 50px;
+}
+.learnkorean {
+  margin: auto;
+  padding-left: 20px;
+  max-width: 1200px;
+  padding-top: 45px;
+  font-size: 45px;
+}
+.main p {
+  line-height: 25px;
+  font-size: 20px;
+  padding-right: 13px;
+}
+.startbtn {
+  display: inline-block;
+  background-color: black;
+  color: #f5f5f5;
+  border-radius: 30px;
+  margin: 12px;
+  padding:  12px;
+}
+.content1 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.main1 {
+  flex-basis: 50%;
+  min-width: 300px;
+}
+.main1 img {
+  max-width: 100%;
+  padding-left: 90px;
+  padding-top: 10px;
+}
+.main1 p {
+  line-height: 25px;
+  font-size: 20px;
+  padding-right: 13px;
+  padding-left: 180px;
+}
+/* Product list page */
+.row-1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 50px;
+  width: 100%;
+}
+.row-2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 50px;
+  width: 100%;
+}
+/* About Product Page */
+.container2 {
+  margin-left: 300px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background: white;
+  max-width: 900px;
+  padding: 50px;
+}
+.level1 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background: white;
+}
+.level1-main {
+  flex-basis: 50%;
+  min-width: 300px;
+  background: white;
+}
+.level1-main p {
+  line-height: 25px;
+  padding-right: 50px;
+  padding-top: 10px;
+  background: white;
+}
+.level2 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background: white;
+}
+.level2-main {
+  flex-basis: 50%;
+  min-width: 300px;
+  background: white;
+}
+/* About Us page */
+.aboutsection {
+  text-align: center;
+  padding: 100px;
+  padding-right: 200px;
+  padding-left: 200px;
+}
